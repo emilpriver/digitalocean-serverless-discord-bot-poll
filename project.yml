@@ -1,0 +1,17 @@
+targetNamespace: ''
+parameters: {}
+packages:
+  - name: commands
+    environment: {}
+    parameters: {}
+    annotations: {}
+    actions:
+      - name: create_poll
+        binary: false
+        main: ''
+        runtime: 'go:default'
+        web: true
+        parameters: {}
+        environment: {}
+        annotations: {}
+        limits: {}
